@@ -2,6 +2,8 @@ import plotly.express as px
 import streamlit as st
 import pandas as pd
 from pathlib import Path
+from docx import Document
+from io import BytesIO
 
 st.set_page_config(page_title="EOPS Survey Dashboard", layout="wide")
 
